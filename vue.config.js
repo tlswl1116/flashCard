@@ -22,11 +22,11 @@ module.exports = defineConfig({
   devServer: {
     port: 8080,
     // 서버 업로드 후 삭제
-    proxy: {
-      "/flashcard": {
-        target: "https://branch2.eie.co.kr",
-        changeOrigin: true,
-      },
-    },
+    // proxy: {
+    //   "/flashcard": {
+    //     target: "https://branch2.eie.co.kr",
+    //     changeOrigin: true,
+    //   },
+    // },
   },
 });
